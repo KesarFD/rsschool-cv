@@ -25,4 +25,4 @@ __* I have already studied HTML and CSS__
 ```
 ### I dont have any experience on job because i'm a newbie.
 #### I study in RSS-School on Stage#0 
-#### My english on B2 level. I talking every day with people on english, but sometimes i can't feel the language.
+#### My english on B1 level. I talking every day with people on english, but sometimes i can't feel the language.
