@@ -1,1 +1,1 @@
-# rsschool-cv
+https://KesarFD.github.io/rsschool-cv/cv
