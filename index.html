@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danil Senkevich CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page-body">
+    <main class="container">
+      <div class="left-side">
+        <figure>
+          <img
+            src="img/Photo.jpg"
+            width="380"
+            height="507"
+            alt="Photo of Danil Senkevich"
+          />
+        </figure>
+        <section class="contact">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="contact__list">
+            <li class="contact__item">
+              Phone:<a href="tel:+79093814792">+7 (909) 381-47-92</a>
+            </li>
+            <li class="contact__item">
+              Email:<a href="senkevich_danil@mail.ru">senkevich_danil@mail.ru</a>
+            </li>
+            <li class="contact__item">
+              Address:<br /><span
+                >Odintsovo, Skolkovskaya.st 9A.</span
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              Courses <br />
+              JS / FRONT END. STAGE 0
+              <br />
+              JS / FRONT-END (In process)
+            </li>
+            <li class="education__item">
+              School <br />10 years informatics education in school.
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-side">
+        <section class="page-title">
+          <h1 class="main-title">Danil <br />Senkevich</h1>
+          <p>Front-End developer</p>
+        </section>
+        <section class="about-me">
+          <h2 class="section-title">About me</h2>
+          <p>
+            My main goal is to get an initial understanding of web development and programming,
+             I learn at an incredible speed and I am ready to devote a lot of time to it, I am assiduous and always go to the end.<br />
+            Since childhood, i was intrested in computer sciense, machine learning and more similar things.
+          </p>
+        </section>
+        <section class="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>
+              Knowledge about ServiceNow administration
+            </li>
+            <li>
+              Basic knowledge of JS. I'm learning JS.
+            </li>
+            <li>
+              English - B1. I have study in school.
+            </li>
+          </ul>
+        </section>
+        <section class="key-strengths">
+          <h2 class="section-title">Main strengths</h2>
+          <ul class="key-strengths__list">
+            <li>Sociable</li>
+            <li>Responsible</li>
+            <li>Sociable</li>
+            <li>Quick learner</li>
+            <li>Stress-resistant</li>
+          </ul>
+        </section>
+        <section class="code-example">
+          <h2 class="section-title">Code example</h2>
+          <details>
+            <summary>From JS / FRONT END. STAGE 0 course</summary>
+            <pre>
+                function indexEqualsValue(a) {
+                    let start = 0;
+                    let end = a.length - 1;
+                
+                    while (start != end) {
+                
+                        let middle = Math.floor(start + (end - start) / 2);
+                
+                        if (a[middle] >= middle) {
+                            end = middle;
+                        } else {
+                            start = middle + 1;
+                        }
+                
+                    }
+                
+                    if (a[start] == end) {
+                        return a[start]
+                    } else {
+                        return -1
+                    }
+                }
+            </pre>
+          </details>
+        </section> 
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="footer__github" href="https://github.com/KesarFD">
+        My GitHub
+      </a>
+      <p class="footer__year">2021</p>
+      <a class="footer__rsschool" href="https://rs.school/js/">
+        <img src="img/rs_school_js.svg" width="86" height="32" alt="RS School">
+      </a>
+    </footer>
+  </body>
+</html>
